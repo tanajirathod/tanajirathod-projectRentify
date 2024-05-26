@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+.footerStyle{
+ height: 200px;
+ color: rgb(91, 53, 83);
+ background-color: rgba(97, 47, 47, 0.379);
+}
+
+.RentifyHeaderComponent,.nav-link{
+ color: black;
+}
+.RentifyHeaderComponent,.navbar-brand{
+    color: red;
+}
+.container-fluid {
+    padding-top: 200px;
+    
+    height: 100vh;
+    width: 100%;
+   
+    align-items: center;
+    background-color: rgba(200, 144, 223, 0.5);
+
+}
+
+@keyframes gradientChange {
+    0% {
+        background: linear-gradient(45deg, #543851, #0000ff);
+    }
+    40% {
+        background: linear-gradient(45deg, #18af4575, #36a98177);
+    }
+    700% {
+        background: linear-gradient(45deg, #e96de9, #18adaa);
+    }
+    100% {
+        background: linear-gradient(45deg, #ff0000, #0000ff);
+    }
+}
+
+container-fluid {
+    animation: gradientChange 10s infinite;
+    height: 100vh; /* Full height */
+    background-size: 50% 50%;
+}
